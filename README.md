@@ -10,7 +10,7 @@
 **完美滚动轮播图**
 - 默认100宽度
 - 默认高度为图片高度
-- 如果每个图片高度不一样，默认使用最大值，高度较小的会有一个灰色背景 <table><tr><td bgcolor="#808080"> #808080</td></tr></table>，竖向居中，并不会拉伸图片
+- 如果每个图片高度不一样，默认使用最大值，高度较小的会有一个灰色背景, <table><tr><td bgcolor="#808080"> #808080</td></tr></table>并且竖向居中，并不会拉伸图片
 
 
 ## 使用
@@ -19,7 +19,7 @@
 ``` bash
     git clone https://github.com/CvCn/swiper.git
 ```
--查看index.html示例
+查看index.html示例
 
 ### 2. 使用
 
@@ -73,10 +73,10 @@ var option = {
 `class="swiper-arrow"`元素中的为左右切换按钮， \
 不喜欢可以自己更换
 
-
-<span style="font-size: .9em; color: #808080">此项目依赖flex布局，在某些浏览器下可能会出现问题 
+\
+<font size="2" color="#808080">此项目依赖flex布局，在某些浏览器下可能会出现问题 
 <a href="http://www.runoob.com/cssref/css3-pr-flex.html" target="_blank">flex兼容性</a>
-</span>
+</font>
 
 ## 打赏
 <img width="400px" height="400px" alt="赞赏码" src="http://www.moxiaowei.com/swiper/img/ds.jpg"/>
