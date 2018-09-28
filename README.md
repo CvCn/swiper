@@ -15,11 +15,11 @@
 
 ## 使用
 
-### 1. 查看示例
+### 1. 下载
 ``` bash
     git clone https://github.com/CvCn/swiper.git
 ```
-查看index.html示例
+-查看index.html示例
 
 ### 2. 使用
 
