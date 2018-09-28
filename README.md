@@ -7,7 +7,9 @@
 
 ## Description
 
-**完美实现轮播**,欢迎PR
+**完美滚动轮播图**
+- 默认100宽度
+- 默认高度根据
 
 ## 使用
 
@@ -19,35 +21,37 @@
 
 2. 自定义使用
 
-引用
+1). 引用
 ``` bash
     <script src="/js/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script src="sw.js" type="text/javascript"></script>
     <link rel="stylesheet" href="sw.css">
 ```
+*Tips* 
+- 依赖与jQuery
 
-在html里按照如下结构使用
+2). 在html里按照如下结构使用
 ``` bash
 <div class="swp">
-        <div class="swiper">
-            <div class="swiper-main">
-                <span><img src="img/img (1).jpg" alt=""></span>
-                <span><img src="img/img (2).jpg" alt=""></span>
-                <span><img src="img/img (3).jpg" alt=""></span>
-                <span><img src="img/img (4).jpg" alt=""></span>
-            </div>
-        </div>
-        <div class="swiper-point">
-            <span class="point point-b" data-key="1"></span>
-            <span class="point" data-key="2"></span>
-            <span class="point" data-key="3"></span>
-            <span class="point" data-key="4"></span>
-        </div>
-        <div class="swiper-arrow">
-            <span class="pro">&lt;</span>
-            <span class="next">&gt;</span>
+    <div class="swiper">
+        <div class="swiper-main">
+            <span><img src="img/img (1).jpg" alt=""></span>
+            <span><img src="img/img (2).jpg" alt=""></span>
+            <span><img src="img/img (3).jpg" alt=""></span>
+            <span><img src="img/img (4).jpg" alt=""></span>
         </div>
     </div>
+    <div class="swiper-point">
+        <span class="point point-b" data-key="1"></span>
+        <span class="point" data-key="2"></span>
+        <span class="point" data-key="3"></span>
+        <span class="point" data-key="4"></span>
+    </div>
+    <div class="swiper-arrow">
+        <span class="pro">&lt;</span>
+        <span class="next">&gt;</span>
+    </div>
+</div>
 ```
 将`class="swiper-main"`元素中的图片换成自己需要的，
 ### 配置 sw.js
@@ -58,7 +62,11 @@ var option = {
     }
 ```
 *Tips*
-- 如果需要点击轮播图点击打开，可以将`class="swiper-main"`元素中的`<span>`元素换成`<a>`
+- 如果需要点击轮播图打开新地址，可以将`class="swiper-main"`元素中的`<span>`元素换成`<a>`
+*示例*
+```bash
+ <a src="" target="_blank"><img src="img/img (1).jpg" alt=""></a>
+```
 - 其中`class="swiper-point"`元素中的为底部指示符，\
 `class="swiper-arrow"`元素中的为左右切换按钮， \
 不喜欢可以自己更换
