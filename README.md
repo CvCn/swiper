@@ -1,6 +1,6 @@
 # 完美滚动轮播图
 
-![jQuery v-3.2.1](https://img.shields.io/badge/jQuery.js-v3.2.1-green.svg)
+依赖Jquery
 
 ## 查看效果
 - http://www.moxiaowei.com/swiper/
