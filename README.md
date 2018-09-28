@@ -50,7 +50,7 @@
     </div>
 ```
 将`class="swiper-main"`元素中的图片换成自己需要的，
-### 配置
+### 配置 sw.js
 ```bash
 var option = {
         speed: 618, //动画速度 ms
@@ -58,7 +58,7 @@ var option = {
     }
 ```
 *Tips*
-- 如果需要点击轮播图点击打开，可以将`class="swiper-main"`元素中的`<span>`元素换成`<a>`\
+- 如果需要点击轮播图点击打开，可以将`class="swiper-main"`元素中的`<span>`元素换成`<a>`
 - 其中`class="swiper-point"`元素中的为底部指示符，\
 `class="swiper-arrow"`元素中的为左右切换按钮， \
 不喜欢可以自己更换
