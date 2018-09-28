@@ -3,14 +3,15 @@
 ![jQuery v-3.2.1](https://img.shields.io/badge/jQuery.js-v3.2.1-green.svg)
 
 ## 查看效果
-- http://www.moxiaowei.com/swiper/
+- <a href="http://www.moxiaowei.com/swiper/" target="_blank">http://www.moxiaowei.com/swiper/</a>
 
 ## Description
 
 **完美滚动轮播图**
 - 默认100宽度
 - 默认高度为图片高度
-- 如果每个图片高度不一样，默认使用最大值，高度较小的会有一个灰色背景，竖向居中，并不会拉伸图片
+- 如果每个图片高度不一样，默认使用最大值，高度较小的会有一个灰色背景 <span style="background-color: #808080;">#808080</span>，竖向居中，并不会拉伸图片
+
 
 ## 使用
 
@@ -71,6 +72,11 @@ var option = {
 - 其中`class="swiper-point"`元素中的为底部指示符，\
 `class="swiper-arrow"`元素中的为左右切换按钮， \
 不喜欢可以自己更换
+
+
+<span style="font-size: .9em; color: #808080">此项目依赖flex布局，在某些浏览器下可能会出现问题 
+<a href="http://www.runoob.com/cssref/css3-pr-flex.html" target="_blank">flex兼容性</a>
+</span>
 
 ## 打赏
 <img width="400px" height="400px" alt="赞赏码" src="http://www.moxiaowei.com/swiper/img/ds.jpg"/>
