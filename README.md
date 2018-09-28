@@ -1,10 +1,12 @@
-# 轮播图
+# 完美滚动轮播图
 
-![jQuery v-3.2.1](https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js)
+![jQuery v-3.2.1](https://img.shields.io/badge/jQuery.js-v0.24.4-green.svg)
+
+## <a src="http://www.moxiaowei.com/swiper/" target="_blank">查看效果</a>
 
 ## Description
 
-**轮播图，完美实现轮播**,欢迎PR
+**完美实现轮播**,欢迎PR
 
 ## 使用
 
@@ -46,8 +48,19 @@
         </div>
     </div>
 ```
-将`class="swiper-main"`元素中的图片换成自己需要的，\
-如果需要点击轮播图点击打开，可以将`class="swiper-main"`元素中的`<span>`元素换成`<a>`\
-其中`class="swiper-point"`元素中的为底部指示符，\
-`class="swiper-arrow"`元素中的为左右切换按钮
-    
+将`class="swiper-main"`元素中的图片换成自己需要的，
+### 配置
+```bash
+var option = {
+        speed: 618, //动画速度 ms
+        interval: 6180 //自动播放间隔 ms
+    }
+```
+*Tips*
+- 如果需要点击轮播图点击打开，可以将`class="swiper-main"`元素中的`<span>`元素换成`<a>`\
+- 其中`class="swiper-point"`元素中的为底部指示符，\
+`class="swiper-arrow"`元素中的为左右切换按钮， \
+不喜欢可以自己更换
+
+## 打赏
+<img width="400px" height="400px" alt="赞赏码" src="http://www.moxiaowei.com/swiper/img/ds.jpg"/>
