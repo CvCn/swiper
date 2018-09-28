@@ -3,7 +3,7 @@
 ![jQuery v-3.2.1](https://img.shields.io/badge/jQuery.js-v0.24.4-green.svg)
 
 ## 查看效果
-<a src="http://www.moxiaowei.com/swiper/" target="_blank">查看效果</a>
+- http://www.moxiaowei.com/swiper/
 
 ## Description
 
