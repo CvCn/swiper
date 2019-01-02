@@ -79,4 +79,4 @@ var option = {
 </font>
 
 ## 打赏
-<img width="400px" height="400px" alt="赞赏码" src="http://www.moxiaowei.com/swiper/img/ds.jpg"/>
+<img width="400px" height="400px" alt="赞赏码" src="https://moxiaowei.com/static2/ds.jpg"/>
