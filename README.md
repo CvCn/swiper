@@ -4,7 +4,7 @@
 
 ## 查看效果
 - <a href="https://moxiaowei.com/static2/swiper/index.html" target="_blank">https://moxiaowei.com/static2/swiper/index.html</a>
-<img width="800px" height="420px" alt="查看效果" src="https://moxiaowei.com/static2/15464147591.jpg"/>
+<img width="500px" height="209px" alt="查看效果" src="https://moxiaowei.com/static2/15464147591.jpg"/>
 ## Description
 
 **完美滚动轮播图**
